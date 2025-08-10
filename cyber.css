@@ -1,0 +1,86 @@
+        .paragraph-2:hover {
+            color: #3e692a;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+        
+        h1:hover {
+            cursor: pointer;
+            text-shadow: 0 0 10px #d25903, 0 0 20px #ffffff, 0 0 30px #03d211, 0 0 40px #03d2b3;
+            transition: text-shadow 0.3s ease;
+        }
+        p:hover {
+            color: #d25903;
+            transition: color 0.3s ease;
+        }
+        .paragraph-1 {
+            font-size: 20px;
+            color: #ff5e00;
+            margin: 20px;
+            font-family: 'Bitcount', sans-serif;
+            text-align: center;
+            display: inline;
+        }
+        body {
+            background-color: hsl(198, 57%, 66%);
+
+        }
+        .paragraph-2 {
+            font-size: 18px;
+            color: #ffffff;
+            font-family: 'Bitcount', sans-serif;
+            text-align: center;
+            display: inline-block;
+            width: 700px;
+        }
+        h1 {
+            display: inline-block;
+            height: 100px;
+            width: 100%;
+            font-size: 3em;
+  
+            color: rgb(79, 207, 28);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: 'Bitcount', sans-serif;
+            text-align: center;
+        }
+        .spam-1{
+        color: orangered;
+        display: inline-block;
+        
+        }
+        
+         .spam-2 {
+            display: inline-block;
+            color: white;
+            
+        }
+        img {
+            display: inline-block;
+        }
+        .flag{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .image-1 {
+          width: 500px;
+          height: 300px;
+          display: inline-block ;
+          margin-top: 40px;
+        }
+
+        button {
+            color: rgb(0, 140, 255);
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            display: block;
+            position: relative;
+            left: 700px;
+        }
+        
